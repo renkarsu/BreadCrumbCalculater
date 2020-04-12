@@ -2,15 +2,10 @@
     box-sizing: border-box;
 }
 
-header{
-    background-color: grey;
-    height: 300px;
-    text-align: center;
-    border: solid;
-}
 header div{
     font-size: 100px;
 }
+
 
 main{
     display: inline-block;
@@ -23,7 +18,7 @@ main{
     background-color: crimson;
     float: right;
     width: 80%;
-    height: 600px;
+    height: 500px;
 }
 
 .btnPlass{
