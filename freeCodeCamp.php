@@ -31,9 +31,33 @@
             $gpa = 32.98743;//floating number, decimal number
             $isMale = false;//boolean
             //null means no value
-            echo 4.57;//show 4.57
-            echp $phrase;
+            echo "4.57<br>";//show 4.57
+            echo "$phrase<br>";
 
+        /*Working With Strings*/
+            $phrase = "Giraffe Academy";
+            echo "$phrase<br>";//represent any plane text
+
+            echo strtolower($phrase);echo "<br>";
+            echo strtoupper($phrase);echo "<br>";//In parameter, "dog" is also OK
+            echo strlen($phrase);echo "<br>";
+
+            echo "$phrase[0]<br>";//first character in string
+            echo "$phrase[2]<br>";//third character in string
+            //echo "Mike"[0];
+
+            $phrase[0] = "B";
+            echo "$phrase<br>";
+
+            echo str_replace("Giraffe", "Panda", $phrase);echo"<br>";
+
+            $phrase = "Giraffe Academy";
+            echo substr($phrase, 8);//get from 8th character to the end
+            echo substr($phrase, 8, 3);//get 3 character from 8th character
+
+        /*Working With Number*/
+            echo "-40.847<br>";//[echo -40] is also OK, but don't make a new line
+            
         ?>
     </body>
 </html>
