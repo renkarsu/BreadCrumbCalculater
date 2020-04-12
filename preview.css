@@ -4,5 +4,28 @@
 
 header{
     background-color: grey;
-    height: 100px;
+    height: 300px;
+    text-align: center;
+    border: solid;
+}
+header div{
+    font-size: 100px;
+}
+
+main{
+    display: inline-block;
+}
+#btn{
+    background-color: blue;
+    float: left;
+}
+#past{
+    background-color: crimson;
+    float: right;
+    width: 80%;
+    height: 600px;
+}
+
+.btnPlass{
+    border: solid;
 }
