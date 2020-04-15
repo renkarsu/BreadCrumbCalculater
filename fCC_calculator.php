@@ -10,7 +10,7 @@
     </head>
     <body>
 
-    <form action = "freeCodeCamp1.php" method = "get">
+    <form action = "fCC_calculator.php" method = "get">
         <input type = "number" name = "num1">
         <br>
         <input type = "number" name = "num2">
